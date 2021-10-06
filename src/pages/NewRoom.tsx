@@ -5,7 +5,7 @@ import logoImg from '../assets/images/logo.svg'
 import { Button } from '../components/Button';
 import '../styles/auth.scss'
 import { db } from '../services/firebase';
-import { push, ref, set} from "firebase/database";
+import { push, ref} from "firebase/database";
 import { useAuth } from '../hooks/useAuth';
 
 export function NewRoom() {
